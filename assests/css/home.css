@@ -1,0 +1,141 @@
+body{
+    font-family: sans-serif;
+}
+
+#my-contact{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+/* 
+#contact-box{
+    font-weight: bolder;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+#sizing{
+    width: 50%;
+
+}
+#details li{
+    color: white;
+    border-bottom: 4px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: blue;
+    cursor: pointer;
+    height: 30px;
+}
+
+#details li:hover{
+    background-color: gray;
+    transition: ease-in 80ms;
+    transform: scale(1.01);
+
+}
+
+
+#form{
+    width: 100%;
+    justify-content: center;
+    
+    display: flex;
+    height: 40px;
+
+}
+
+
+form button{
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+form button:hover{
+    box-shadow: 0 2px 40px rgba(13, 141, 184, 0.854);
+} */
+
+
+#contact-box{
+   width: 60%;
+   margin: 5px auto;
+}
+#contact-box ul{
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.contact{
+    padding: 3px 10px;
+    border:1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    color: white;
+    display: flex;
+}
+
+.contact #details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact:hover{
+    animation:ease-in 100ms;
+    transform: scale(1.01);
+    background-color: gray
+}
+.contact p{
+    margin: 5px 0;
+}
+
+.contact{
+    padding: 3px;
+    text-align: center;
+}
+.delete {
+    margin: 5px;
+    width: 10%; 
+}
+
+ .delete a{
+    color: white;
+    background-color:red;
+} 
+
+#form{
+    width: 60%;
+    display: flex;
+    margin: 10px auto;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#form input{
+    background-color: whitesmoke;
+    width: 30%;
+}
+#form button{
+    font-size: 1rem;
+    background-color: grey;
+    cursor: pointer;
+    font-family: monospace;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+#form button:hover{
+    box-shadow: 0 2px 40px gray;
+}
